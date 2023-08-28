@@ -305,7 +305,7 @@
 
 .button,
 .search_bar {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .button {
@@ -315,25 +315,25 @@
 .first_paragraph,
 .paragraph,
 .final_paragraph {
-    margin: 5px;
-    font-size: 12px;
+    margin: 10px;
+    font-size: 14px;
 }
 
 .article_summary,
 .article_summary_container {
-    font-size: 12px;
+    font-size: 14px;
     width: 99%;
     padding: 0;
 }
 .article_preview,
 .article_intro {
-    margin: 5px;
+    margin: 10px;
 }
 
 .title,
 .subtitle {
     font-size: 20px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .article_title {
