@@ -359,6 +359,10 @@
     margin: 5px;
 }
 
+.newsletter_link {
+    margin-left: 15%;
+}
+
 .email_bar {
     font-size: 14px;
     padding: 5px;
@@ -374,4 +378,8 @@
     max-width: 100%;
 }
 
+.gallery_container {
+    align-items: center;
+    margin: 10%;
+}
 }
