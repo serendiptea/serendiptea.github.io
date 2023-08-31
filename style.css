@@ -292,6 +292,10 @@
     vertical-align: top;
 }
 
+.bottom {
+    margin-left: 40%;
+}
+
 /* FOR PHONE SCREENS */
 @media (max-width: 768px) {
 .logo {
