@@ -293,7 +293,7 @@
 }
 
 .bottom {
-    margin-left: 40%;
+    margin-left: 650px;
 }
 
 /* FOR PHONE SCREENS */
@@ -385,5 +385,8 @@
 .gallery_container {
     align-items: center;
     margin: 0%;
+}
+.bottom {
+    margin-left: 40%;
 }
 }
