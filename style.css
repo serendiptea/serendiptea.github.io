@@ -161,7 +161,6 @@
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    margin-right: 120px;
     margin-left: 120px;
     text-align: justify;
 }
@@ -186,9 +185,24 @@
     text-align: justify;
 }
 
+.article_summary_container_noimage {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
 .article_summary {
     font-size: 15px;
     width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    text-align: justify;
+}
+
+.article_summary_noimage {
+    font-size: 15px;
+    width: 90%;
     font-family: 'Roboto Mono', monospace;
     color: black;
     text-align: justify;
@@ -293,7 +307,7 @@
 }
 
 .bottom {
-    margin-left: 700px;
+    margin-left: 650px;
 }
 
 /* FOR PHONE SCREENS */
@@ -390,3 +404,4 @@
     margin-left: 40%;
 }
 }
+
