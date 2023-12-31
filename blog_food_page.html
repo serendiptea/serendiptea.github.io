@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Serendipitea Food</title>
+    <title>Serendipitea Food</title>
     <link rel="icon" href="logo_teapot.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="background-color:rgb(245,245,220);">
@@ -27,11 +33,66 @@
     <p class="first_paragraph">
     You only need to know one thing about us, and one thing only: we <3 sugar.
         So naturally, we have curated for you the unmissable culinary finds we have come across around the world,
-        because sharing is caring (and we want to get discounts haha just kidding)
-        On the rare occasion that we don't just eat desert for the whole meal.
+        because sharing is caring (and we want to get discounts haha just kidding) on the rare occasion that we don't just eat desert for the whole meal.
     </p>
 
-    <p class="paragraph">We know we don't have much here yet, but come back here later for our favorite food recommendations!</p>
+    <div id="map" style="margin-bottom: 20px; height: 400px;"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="main.js"></script>
+
+    <div class="article_preview">
+      <div class="article_image_container">
+          <img class="article_image" src="article_images/farro_bakery.jpeg">
+      </div>
+
+      <div class="article_summary_container">
+          <a class="article_title">#1 Farro Bakery</a>
+              <p class="article_summary">Bristol, United Kingdom</p>
+              <p class="article_summary">
+                  Oh my this place is famous! Caution if you want to grab on of their famous bakery items, get there in the morning
+                  quickly. You can easily locate the place by the queues outside the bakery, and we can assure you it is worth the hype! Their cinnamon roll
+                  was delightful, we the right amount of crispiness and a decadent amount of cinnamon sugar to keep us happy.
+              </p>
+          <a class="article_summary">Rating: 10/10</a>
+      </div>
+    </div>
+
+    <div class="article_preview">
+      <div class="article_image_container">
+          <img class="article_image" src="article_images/kensington_bakery.jpeg">
+      </div>
+
+      <div class="article_summary_container">
+          <a class="article_title">#2 Kensington Bakery</a>
+              <p class="article_summary">London, United Kingdom</p>
+              <p class="article_summary">
+                  This place is easily on of our favorites. The danish is stunning, with summer fruits and a delicious custard. The bakery is slightly on the
+                  more expensive side, but we are talking about London here so this may be the norm. Highly recommend the bakery and would go there again in
+                  a heartbeat.
+              </p>
+          <a class="article_summary">Rating: 9/10</a>
+      </div>
+    </div>
+
+  <div class="article_preview">
+      <div class="article_image_container">
+          <img class="article_image" src="article_images/churros_bakery.jpeg">
+      </div>
+
+      <div class="article_summary_container">
+          <a class="article_title">#3 Xurreria</a>
+              <p class="article_summary">Barcelona, Spain</p>
+              <p class="article_summary">
+                  Can you say you have visited Barcelona without actually having churros every day you were there? We think not,
+                  which is why we tried a few places when we were there and Xurreria definitely came out on top! The churros were exceptionally crispy but
+                  what made all the difference was the chocolate sauce which wasn't too sweet and just perfect.
+              </p>
+          <a class="article_summary">Rating: 8/10</a>
+      </div>
+  </div>
+
 
     <div class="line"></div>
     <div class="bottom">
